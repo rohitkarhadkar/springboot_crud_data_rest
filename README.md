@@ -1,1 +1,35 @@
-The Spring Data REST project extends the capabilities of the "Employee Directory" project by integrating Spring Data REST for exposing RESTful APIs based on Spring Data repositories. With Spring Data REST, developers can effortlessly expose domain models as REST resources, enabling clients to interact with the application using standard HTTP methods. This project exemplifies the use of modern RESTful practices for building scalable and interoperable web services.
+# Employee Directory - Spring Data REST
+
+The Employee Directory project is a Spring Boot application that provides REST APIs for CRUD operations on an employee directory. It showcases proficiency in Spring Boot and modern web development practices.
+
+## Features
+
+- **RESTful APIs**: Implements CRUD operations on employee data, allowing seamless interaction with the application.
+- **Robust Architecture**: Utilizes a layered architecture with controllers, service layer, and DAO for efficient and organized database connectivity.
+- **Integration with Spring Data REST**: Exposes RESTful APIs based on Spring Data repositories, enabling clients to interact with the application using standard HTTP methods.
+
+## Technologies Used
+
+- Java
+- Spring Boot
+- Spring Data REST
+
+## Installation
+
+To run the Employee Directory project locally, follow these steps:
+
+1. Clone this repository.
+2. Build the project using Maven: `mvn clean install`.
+3. Run the application: `mvn spring-boot:run`.
+
+## Usage
+
+Once the application is running, you can access the RESTful APIs to perform CRUD operations on employee data. Use tools like Postman or curl to interact with the APIs.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions, bug fixes, or feature implementations, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
